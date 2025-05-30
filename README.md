@@ -17,7 +17,7 @@
 
 ### Links
 
-- Live Site URL: [https://lorrana-gm.github.io/projeto-huddle/](https://lorrana-gm.github.io/projeto-huddle/)
+- Live Site URL: [https://github.com/lorrana-gm/projeto-huddle](https://github.com/lorrana-gm/projeto-huddle)
 
 ### Construído com 
 
