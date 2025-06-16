@@ -1,61 +1,255 @@
-@media (max-width: 320px) {
+@media (max-width: 1550px) {
 
     body {
-        display: flex;
-        flex-direction: column;
-        background: url(../images/bg-mobile.svg) top center no-repeat;
-        background-size: contain;
-        background-color: hsl(257, 40%, 49%);
+        transform: scale(0.9);
+        max-height: 100vh;
     }
 
-    .logo img {
-        margin: 0;
-        width: 140px;
-        padding: 25px 0 10px 25px;
+    .container .info .descricao {
+        font-size: 1.6rem;
     }
+}
+
+@media (max-width: 1200px) {
 
     .container {
-        margin: 0;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .container img {
-        width: 260px;
-        height: 180px;
+        gap: 1rem;
     }
 
     .container .info {
-        width: 285px;
+        transform: scale(0.8);
+    }
+
+    .container .info .descricao {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background: url(../images/bg-mobile.svg) top center no-repeat;
+        background-size: 100%;
+        background-color: hsl(257, 40%, 49%);
+        padding: 0 50px 50px 50px;
+    }
+
+    header {
         margin: 0;
-        gap: 15px;
+    }
+
+    header img {
+        width: 38rem;
+    }
+
+    .container {
+        gap: 7rem;
+        flex-direction: column;
+        margin-top: 18rem;
+    }
+
+    .container .info {
+        align-items: center;
+        text-align: center;
+        gap: 4rem;
     }
 
     .container .info h1 {
-        font-size: 20px;
+        font-size: 7rem;
     }
 
-    .container .info .description {
-        font-size: 14px;
+    .container .info .descricao {
+        font-size: 5rem;
+        width: 1010px;
+        height: 100%;
     }
 
     .container .info button {
-        font-size: 11px;
-        height: 35px;
-        margin-top: 5px;
+        width: 55rem;
+        height: 10rem;
+        font-size: 3.5rem;
     }
 
     .media {
         justify-content: center;
-        margin: 30px;
+        margin: 40rem;
     }
 
-    .media a {
-        width: 25px;
-        height: 25px;
-        font-size: 12px;
+    .media ul {
+        font-size: 3rem;
+        display: flex;
+        gap: 3rem;
+    }
+
+    .media ul li a {
+    width: 60px;
+    height: 60px;
+
+}
+}
+
+@media (max-width: 768px) {
+    body {
+        background: url(../images/bg-mobile.svg) top center no-repeat;
+        background-size: 100%;
+        background-color: hsl(257, 40%, 49%);
+        padding: 0 45px 0 45px;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        flex: 0;
+        margin-top: 14rem;
+        gap: 7rem;
+    }
+
+    .container .info {
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        gap: 3rem;
+        width: 100%;
+        transform: none;
+    }
+
+    .container .info h1 {
+        font-size: 4.5rem;
+    }
+
+    .container .info .descricao {
+        font-size: 3.3rem;
+        width: 100%;
+    }
+
+    .container .info button {
+        width: 40rem;
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+
+    .media {
+        margin-top: 80px;
+        justify-content: center;
+    }
+
+    .media ul {
+        font-size: 2.7rem;
+        gap: 3rem;
+    }
+
+    .media ul li a {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    body {
+        padding: 0 30px 0 30px;
+        gap: 3rem;
+    }
+
+    .container {
+        margin: 0;
+        gap: 6rem;
+        margin-top: 65px;
+    }
+
+    .container .info {
+        gap: 1.6rem;
+    }
+
+    .container .info h1 {
+        font-size: 3.4rem;
+    }
+
+    .container .info .descricao {
+        font-size: 2.3rem;
+        width: 465px;
+    }
+
+    .container .info button {
+        width: 28rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .media {
+        margin: 0;
+        padding: 40px;
+    }
+
+    .media ul {
+        font-size: 2.5rem;
+    }
+
+    .media ul li a {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 435px) {
+    body {
+        padding: 0 20px 0 20px;
+    }
+
+    header img {
+        width: 170px;
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+
+    .container .info h1 {
+        font-size: 2.8rem;
+    }
+
+    .container .info .descricao {
+        font-size: 1.9rem;
+        width: 100%;
+    }
+
+    .container .info button {
+        width: 20rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .media ul {
+        font-size: 1.6rem;
+        gap: 2rem;
+    }
+
+    .media ul li a {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        margin-top: 15px;
+    }
+
+    .container .info .descricao {
+        font-size: 1.6rem;
+        width: 325px;
+    }
+}
+
+@media (max-width: 325px) {
+    .container {
+        margin-top: 0;
+    }
+
+    .container .info h1 {
+        font-size: 2.2rem;
     }
 }
